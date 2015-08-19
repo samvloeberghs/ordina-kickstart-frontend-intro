@@ -20,11 +20,10 @@ Using correct semantic elements
 Building a form
 
 - Build a form with 4 fields and use the correct HTML element
-
--- name ( required )
--- email ( required )
--- occupation: ( set: analyst / developer / architect ) ( required )
--- general remarks
+    - name ( required )
+    - email ( required )
+    - occupation: ( set: analyst / developer / architect ) ( required )
+    - general remarks
 
 - Create some CSS classes to indicate that a field is incorrect
 
