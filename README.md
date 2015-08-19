@@ -15,6 +15,10 @@ Then please install bower & verify its install:
 
     npm install -g bower && bower -v
 
+As a prefered IDE we will be using WebStorm, so if you'd like to try it out:
+
+https://www.jetbrains.com/webstorm/
+
 ## Presentation:
 
 subfolder presentation
