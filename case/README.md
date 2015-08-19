@@ -48,6 +48,7 @@ JavaScript + HTML5 form validation
 - Write some JavaScript to check if the name & occupation is provided + check if the email is correct
 - If not correct, emphasise the field with your CSS class to indicate that it is incorrect.
 - Show a message related to the input field explaining why it is not correct
+- Now try to mimic the same behaviour with HTML5 elements
 
 ## Part #5:
 Making it responsive
