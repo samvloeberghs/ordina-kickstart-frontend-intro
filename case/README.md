@@ -1,6 +1,21 @@
-Important:
+**Important:**
 In every step or part of this usecase you will have to keep in mind that later on we want to make this responsive. The first parts are easy and quick steps, but the key is to keep this responsiveness in mind at all times.
 Also remember to always use the correct element for preserving semantics of the content.
+
+
+# Prerequisites
+
+first install the dependencies:
+
+    npm install
+    bower install
+
+run the webapp using
+
+    grunt serve
+
+
+# The case
 
 ## Part #1:
 Building a page and styling it
