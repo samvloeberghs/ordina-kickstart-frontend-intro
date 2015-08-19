@@ -1,0 +1,1125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Foundation vs Bootstrap - Ordina</title>
+
+    <meta name="description" content="Foundation vs Bootstrap - A comparisson of 2 extensive frontend frameworks">
+    <meta name="author" content="Jan De Wilde & Sam Vloeberghs">
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides" id="ordina">
+
+        <!-- start -->
+        <section>
+
+            <img src="img/ordina_l.png" alt="Ordina" class="logo"/>
+
+            <h1>Foundation vs Bootstrap</h1>
+
+            <p>
+                Jan De Wilde &mdash; Sam Vloeberghs
+                <br />
+                <a href="https://twitter.com/Mr_Jean">@MrJean</a> &mdash; <a href="https://twitter.com/samvloeberghs">@samvloeberghs</a>
+            </p>
+            <p>
+                <strong>CC Front-end &amp; UX</strong>
+            </p>
+
+        </section>
+        <!-- // start -->
+
+        <!-- intro -->
+        <section>
+
+            <section>
+                <h2>
+                    Foundation vs Bootstrap
+                </h2>
+
+                <ol>
+                    <li>What's in a name</li>
+                    <li>Introducing Foundation</li>
+                    <li>Introducing Bootstrap</li>
+                    <li>Hands-on & comparisson</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>
+                    What's in a name
+                </h2>
+
+                <ol>
+                    <li>Totally not basic</li>
+                    <li>Many predefined styles</li>
+                    <li>Common JS components</li>
+                    <li>Extensive possibilities to extend</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>
+                    Zurb Foundation
+                </h2>
+
+                <img src="img/zurb-logo.svg" alt="Zurb foundation logo" id="zurb" class="frameworklogo" />
+
+                <p class="emphasize">
+                    &quot;Foundation is the <strong>most advanced</strong> responsive front-end framework in the world&quot;
+                </p>
+
+            </section>
+
+            <section>
+                <h2>
+                    Zurb Foundation
+                </h2>
+
+                <ol>
+                    <li>Created at Zurb</li>
+                    <li>Opensource, but paid maintenance</li>
+                    <li>5th major release, 6th on its way</li>
+                    <li>Offer certification &amp; trainings</li>
+                    <li>Frameworks for websites, applications &amp; email templating</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>
+                    Twitter Bootstrap
+                </h2>
+
+                <img src="img/bootstrap.png" alt="Bootstrap logo" id="bootstrap" class="frameworklogo" />
+
+                <p class="emphasize">
+                    &quot;Bootstrap is the <strong>most popular</strong> HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.&quot;
+                </p>
+
+            </section>
+
+            <section>
+                <h2>
+                    Twitter Bootstrap
+                </h2>
+
+                <ol>
+                    <li>Created at Twitter</li>
+                    <li>Opensource, backed by community</li>
+                    <li>3th major release</li>
+                </ol>
+            </section>
+
+        </section>
+        <!-- // intro -->
+
+        <!-- hands on & comparisson -->
+        <section>
+            <section>
+                <img src="img/cats_fighting.jpg" alt="fight fight fight" id="cat" />
+            </section>
+            <section>
+                <h2>Hands-on &amp; comparisson</h2>
+                <ol>
+                    <li>Grid System</li>
+                    <li>Responsive tables</li>
+                    <li>Utilities</li>
+                    <li>Customisation: Foundation Sass vs Bootstrap LESS</li>
+                    <li>
+                        Components: <br /><br />
+                        <ul>
+                            <li>Orbid vs Carousel</li>
+                            <li>Magellan vs Scrollspy</li>
+                            <li>Joyride vs Popover</li>
+                            <li>Responsive tables</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+
+        </section>
+        <!-- // hands on & comparisson -->
+
+        <!-- grid system -->
+        <section>
+
+            <section>
+
+                <h2>
+                    Grid System
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Responsive, fluid &amp; mobile first</li>
+                                <li>Scales to 12 columns</li>
+                                <li>Predefined classes &amp; mixins</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Responsive, fluid &amp; mobile first</li>
+                                <li>Scales to 12 columns</li>
+                                <li>Predefined classes &amp; mixins</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+
+                <h2>
+                    Grid System: row &amp column
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-options">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Predefined grid classes: <pre><code>.small-6 .columns</code></pre></li>
+                                    <li>Columns must have a row directly as parent</li>
+                                    <li>Columns have a gutters based on the default fontsize(16px):<br />rem-calc(30);</li>
+                                    <li>Always place columns in .rows when deepnesting</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Predefined grid classes: <pre><code>.col-xs-4</code></pre></li>
+                                    <li>Columns must have a row directly as parent</li>
+                                    <li>Columns have a gutters of 30px (15px on each side)</li>
+                                    <li>Place rows in .container (fixed-width) or .container-fluid (full-width)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+
+            <section>
+
+                <h2>
+                    Grid System: Media Queries &amp; Breakpoints (1)
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-media-queries">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Default 4 breakpoints:</p>
+                                <ul>
+                                    <li>$small-range: (0em, 40em);</li>
+                                    <li>$medium-range: (40.063em, 64em);</li>
+                                    <li>$large-range: (64.063em, 90em);</li>
+                                    <li>$xlarge-range: (90.063em, 120em);</li>
+                                    <li>$xxlarge-range: (120.063em, 99999em);</li>
+                                </ul>
+
+                            </td>
+
+                            <td>
+                                <p>Default 3 breakpoints:</p>
+                                <ul>
+                                    <li>768px</li>
+                                    <li>992px</li>
+                                    <li>1200px</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+
+                <h2>
+                    Grid System: Media Queries &amp; Breakpoints (2)
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">More</a>
+                            Foundation
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/css/#grid-media-queries">More</a>
+                            Bootstrap
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <p>4 breakpoints means, styling for 5 levels:</p>
+                            <ul>
+                                <li>&lt; 640px</li>
+                                <li>&ge; 641px</li>
+                                <li>&ge; 1025px</li>
+                                <li>&ge; 1441px</li>
+                                <li>&ge; 1921px</li>
+                            </ul>
+
+                        </td>
+
+                        <td>
+                            <p>3 breakpoints means, styling for 4 levels:</p>
+                            <ul>
+                                <li>&lt; 768px</li>
+                                <li>&ge; 768px</li>
+                                <li>&ge; 992px</li>
+                                <li>&ge; 1200px</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: grid behaviour
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">More</a>
+                                Foundation
+                            </th>
+                            <th>Bootstrap</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Does not provide a certain breakpoint for column collapsing</li>
+                                    <li>Define it yourself</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>&lt; 768px: Collapsed at all times</li>
+                                    <li>&ge; 768px: Collapsed to start, horizontal above breakpoints</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: container width
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html#basic">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#overview-container">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>.row acts as a container</li>
+                                    <li>
+                                        width is determined by a variable<br />
+                                        (default 1000px)
+                                    </li>
+                                </ul>
+                                <pre><code>@include grid-row(..)
+$row-width: rem-calc(1000); </code></pre>
+                            </td>
+                            <td>
+                                <pre><code>.container</code></pre>
+                                <pre><code>.container-fluid</code></pre>
+                                <ul>
+                                    <li>&lt; 768px: none (auto)</li>
+                                    <li>&ge; 768px: 750px</li>
+                                    <li>&ge; 992px: 970px</li>
+                                    <li>&ge; 1200px: 1170px</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: class prefixes
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html#customize-with-sass">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-options">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>breakpoints defined as default variables</li>
+                                    <li>variables can be adapted, so naming stays, but values change</li>
+                                </ul>
+
+                                <p><strong>default generic naming:</strong></p>
+                                <pre><code>.small-10
+.medium-6
+.large-4
+.xlarge-2
+.large-1</pre></code>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>&lt; 768px: <pre><code>.col-xs-*</code></pre></li>
+                                    <li>&ge; 768px: <pre><code>.col-sm-*</code></pre></li>
+                                    <li>&ge; 992px: <pre><code>.col-md-*</code></pre></li>
+                                    <li>&ge; 1200px: <pre><code>.col-lg-*</code></pre></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: column wrapping
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-example-wrapping">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>
+                                    When placing more than 12 columns in a row, they will wrap on a new line.
+                                    eg. small-9 + small-4 = 13 columns > 12 columns
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    When placing more than 12 columns in a row, they will wrap on a new line.
+                                    eg. col-xs-9 + col-xs-4 = 13 columns > 12 columns
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: column resets
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-responsive-resets">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>based on the parent .row, ::after pseudo element</li>
+                                    <li>clear manually , an extra HTML element</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <p>Bootstrap does column resets by adding an extra HTML element in your grid.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: offset
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html#offsets">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-offsetting">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>It is possible to give a column an offset of * columns.
+                                <pre><code>.large-10 large-offset-1 column</code></pre></p>
+                            </td>
+                            <td>
+                                <p>It is possible to give a column an offset of * columns.
+                                    <pre><code>.col-md-offset-*</code></pre></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: ordering
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html#source-ordering">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-column-ordering">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Ordering can be done by using push or pull.</p>
+                                <p>
+                                    Easily change the order of our built-in grid columns with some classes.</p>
+
+                                    <pre><code>small-10 small-push-2 columns</code></pre>
+                                    and
+                                    <pre><code>small-2 small-pull-10 columns</code></pre>
+                                    modifier classes.
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ordering can be done by using push or pull.</p>
+                                <p>Easily change the order of our built-in grid columns with <pre><code>.col-md-push-*</code></pre> and <pre><code>.col-md-pull-*</code></pre> modifier classes.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>
+                    Grid System: Less mixins &amp; variables
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html#customize-with-sass">More</a>
+                                Foundation
+                            </th>
+                            <th>
+                                <a target="_blank" href="http://getbootstrap.com/css/#grid-less">More</a>
+                                Bootstrap
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>A set of variables and mixins can be customised and used within Foundation.</p>
+                                <p>Example:</p>
+                                <p><pre><code>$row-width: rem-calc(1000);
+$column-gutter: rem-calc(30);
+$total-columns: 12 ;</code></pre></p>
+                            </td>
+                            <td>
+                                <p>A set of variables and mixins can be customised and used within Bootstrap.</p>
+                                <p>Example:</p>
+                                <p><pre><code>@grid-columns: 12;
+@grid-gutter-width: 30px;
+@grid-float-breakpoint: 768px;</code></pre></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </section>
+        <!-- // grid system -->
+
+        <!-- utilities -->
+        <section>
+
+            <section>
+
+                <h2>
+                    Utilities
+                </h2>
+
+                <ul>
+                    <li>General visibility rules</li>
+                    <li>Print styles</li>
+                </ul>
+            </section>
+
+            <section>
+
+                <h2>
+                    General visibility rules
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/docs/components/visibility.html">More</a>
+                            Foundation
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/css/#responsive-utilities-classes">More</a>
+                            Bootstrap
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>
+                                    Based on your viewport it's possible to show/hide content. Compared to Bootstrap this is extensive.
+                                    Visibility rules can rely on:
+                                </p>
+                                <ul>
+                                    <li>Type & orientation of the device</li>
+                                    <li>Width of the viewport</li>
+                                </ul>
+                                <p>
+                                    Examples:
+                                </p>
+                                <pre><code>.hide-for-large-up
+.show-for-large-up
+.show-for-landscape
+.hide-for-touch</code></pre>
+                            </td>
+                            <td>
+                                <p>Based on the width you are on it is possible to show / hide content using just classes. These helper classes are fairly basic.</p>
+                                <p><pre><code>.visible-*-*
+.hidden-*</code></pre></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+
+                <h2>
+                    Print styles
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/docs/components/visibility.html#print-styles">More</a>
+                            Foundation
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/css/#responsive-utilities-print">More</a>
+                            Bootstrap
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>
+                                    Helper classes to show or hide content on print are fairly basic but handy.
+                                </p>
+                                <p><pre><code>.show-for-print
+.print-only
+.hide-for-print
+.hide-on-print</code></pre></p>
+                            </td>
+                            <td>
+                                <p>Helper classes to show or hide content on print are fairly basic.</p>
+                                <p><pre><code>.visible-print-block
+.visible-print-inline
+.visible-print-inline-block
+.hidden-print</code></pre></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </section>
+        <!-- // utilities -->
+
+        <!-- // customisation -->
+        <section>
+            <section>
+
+                <h2>
+                    Customisation
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/docs/sass-files.html">More</a>
+                            Foundation
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/css/#less">More</a>
+                            Bootstrap
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>build on Sass</li>
+                                <li>entirely customizable</li>
+                            </ol>
+
+                            <ul>
+                                <li>online basic customisation</li>
+                                <li>customise every tiny detail</li>
+                                <li>define your own semantic css</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>Built on Less, but official Sass variant available</li>
+                                <li>Colors</li>
+                                <li>Scaffolding</li>
+                                <li>Links</li>
+                                <li>Typography</li>
+                                <li>Icons</li>
+                                <li>Components</li>
+                                <li>Vendor Mixins</li>
+                                <li>Utility Mixins</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        <!-- // customisation -->
+
+        <!-- javascript components -->
+        <section>
+
+            <section>
+
+                <h2>
+                    Componentsg
+                </h2>
+
+                <table class="table-full table-col-3-vs">
+                    <thead>
+                    <tr>
+                        <th>Foundation</th>
+                        <th>&nbsp;</th>
+                        <th>Bootstrap</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <p>
+                                Orbid<br />
+                                Magellan<br />
+                                Joyride<br />
+                                Responsive tables
+                            </p>
+                        </td>
+                        <td>
+                            <span style="position: relative; top: 48px;">vs.</span>
+                        </td>
+                        <td>
+                            <p>
+                                Carousel<br />
+                                Scrollspy<br />
+                                Popover<br />
+                                Responsive tables
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+
+                <h2>
+                    Components
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/docs/components/orbit.html">More</a>
+                            Orbit
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/javascript/#carousel">More</a>
+                            Carousel
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>JavaScript component</li>
+                                <li>uses slick & its options</li>
+                                <li>deprecated ( just use slick )</li>
+                                <li>poor accessibility</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>JavaScript based</li>
+                                <li>Extension on top of Bootstrap</li>
+                                <li>Pay attention to accessibility</li>
+                                <li>Animation not supported in IE 8 &amp; 9</li>
+                                <li>Customising: Some options, methods and events are available</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+
+                <h2>
+                    Components
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/docs/components/magellan.html">More</a>
+                            Magellan
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/javascript/#scrollspy">More</a>
+                            Scrollspy
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>JavaScript component</li>
+                                <li>style-agnostic plugin</li>
+                                <li>fixed position content navigation</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>JavaScript based</li>
+                                <li>Extension on top of Bootstrap</li>
+                                <li>Needs the Bootstrap nav component</li>
+                                <li>Customising: Some options, methods and events are available</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+
+                <h2>
+                    Components
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/docs/components/joyride.html">More</a>
+                            Joyride
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/javascript/#popovers">More</a>
+                            Popover
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>JavaScript component</li>
+                                <li>Guided tour</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>JavaScript based</li>
+                                <li>Requires the tooltip plugin</li>
+                                <li>Could be used to give a tour when using an application or website for the first time</li>
+                                <li>Customising: Some options, methods and events are available</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+
+                <h2>
+                    Components
+                </h2>
+
+                <table class="table-full">
+                    <thead>
+                    <tr>
+                        <th>
+                            <a target="_blank" href="http://foundation.zurb.com/responsive-tables.html">More</a>
+                            Responsive tables
+                        </th>
+                        <th>
+                            <a target="_blank" href="http://getbootstrap.com/css/#tables-responsive">More</a>
+                            Responsive tables
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>JavaScript & CSS based</li>
+                                <li>Does some DOM manipulation</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Purely CSS based</li>
+                                <li>Uses a wrapper with overflow-x disabled and overflow-y set to auto</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </section>
+        <!-- // javascript components -->
+
+        <!-- documentation -->
+        <section>
+            <h2>Documentation / links etc.</h2>
+            <ul>
+                <li><a href="http://foundation.zurb.com/">Foundation website</a></li>
+                <li><a href="http://getbootstrap.com/">Bootstrap website</a></li>
+                <li><a href="http://sass-lang.com/">Sass website</a></li>
+                <li><a href="http://lesscss.org/">LESS website</a></li>
+            </ul>
+        </section>
+        <!-- // documentation -->
+
+        <!-- thanks -->
+        <section>
+
+            <img src="img/ordina_l.png" alt="Ordina" class="logo"/>
+
+            <h1>Thaaaaaaanks!</h1>
+
+            <a href="https://www.youtube.com/watch?v=DHHKU4znvo8&autoplay=1" id="thanks">
+                <img src="img/thanks.jpg" alt="Thaaaaaaanks"/>
+            </a>
+
+            <p>
+                Jan De Wilde &mdash; Sam Vloeberghs
+                <br />
+                <a href="https://twitter.com/Mr_Jean">@MrJean</a> &mdash; <a href="https://twitter.com/samvloeberghs">@samvloeberghs</a>
+            </p>
+
+            <p>
+                <strong>CC Front-end &amp; UX</strong>
+            </p>
+
+        </section>
+        <!-- // thanks -->
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/highlight/highlight.js', async: true, condition: function () {
+                return !!document.querySelector('pre code');
+            }, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            },
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+</body>
+</html>
