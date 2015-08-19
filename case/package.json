@@ -1,17 +1,6 @@
 {
-  "name": "zf5_project",
-  "description": "",
+  "name": "usecase",
   "version": "0.0.1",
-  "description": "",
-  "homepage": "",
-  "author": {
-    "name": "",
-    "email": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "devDependencies": {
     "load-grunt-tasks": "~3.2.0",
     "node-sass": "~3.2.0",
