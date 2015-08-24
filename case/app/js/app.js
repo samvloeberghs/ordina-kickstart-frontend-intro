@@ -8,10 +8,8 @@ var app = (function (document, $, window) {
             docElem.setAttribute('data-useragent', navigator.userAgent);
         },
         _mobileNavInit = function () {
-            $(document).on('change', 'header select', function (e) {
-                e.preventDefault();
+            $(document).on('change', 'header select', function () {
                 window.location = $(this).val();
-                return false;
             });
         },
         _bindContactFormValidator = function(){
@@ -35,6 +33,8 @@ var app = (function (document, $, window) {
 
     app.init();
     initFormValidator($('#contact form'));
+    startClosureTest();
+    bindVideoElement();
 
 
 })();
@@ -43,8 +43,6 @@ var app = (function (document, $, window) {
 function initFormValidator(form){
 
     $(document).on('submit', form, function(e){
-
-        e.preventDefault();
 
         var valid = true;
         $('.errormsg', form).remove();
@@ -79,3 +77,36 @@ function initFormValidator(form){
 
 }
 
+function startClosureTest(){
+
+    for(var i = 0; i < 5; i++) {
+
+        (function (i) {
+            setTimeout(function () {
+                console.log(i);
+            }, 2000);
+        })(i);
+
+    }
+
+}
+
+function bindVideoElement(){
+
+    var video = document.getElementById('examplevideo');
+
+    $(document).on('click', '#play', function(){
+        video.play();
+        $('#play').attr("disabled", "disabled");
+        $('#pause').removeAttr("disabled");
+        return false;
+    });
+
+    $(document).on('click', '#pause', function(){
+        video.pause();
+        $('#pause').attr("disabled", "disabled");
+        $('#play').removeAttr("disabled");
+        return false;
+    });
+
+}

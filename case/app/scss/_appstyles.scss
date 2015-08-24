@@ -2,22 +2,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-nav{
-    a{
-
-    }
-    ul{
-        li{
-            a{
-
-            }
-        }
-    }
-}
-
-nav ul li a{
-
-}
 
 #wrapper{
     width:960px;
@@ -53,9 +37,9 @@ header{
             background-size:cover;
             display:block;
             text-indent: -9999px;
-
             width:250px;
             height:55px;
+            margin:0 auto;
 
         }
         @media (max-width: 640px) {
@@ -222,6 +206,29 @@ footer{
         p{
             font:{
                 size:0.8em;
+            }
+        }
+    }
+
+    #video{
+        video{
+            width:400px;
+            display:block;
+        }
+        width:400px;
+        margin: 0 auto;
+
+        .controls{
+            margin:{
+                top:20px;
+            }
+
+            a{
+                display:inline-block;
+                border:1px solid #ddd;
+                padding:5px;
+                background: black;
+                color:#fff;
             }
         }
     }

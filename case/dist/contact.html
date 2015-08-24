@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usecase blog</title>
+
+
+
+    <link rel="stylesheet" href="css/app.min.css">
+
+    <script src="js/vendor/modernizr.min.js"></script>
+
+</head>
+
+<body id="myapp">
+
+    <div id="wrapper">
+
+        <header>
+
+            <h1>
+                <a href="index.html">
+                    Ordina BE
+                </a>
+            </h1>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" title="">Home</a>
+                    </li>
+                    <li>
+                        <a href="detail.html" title="">Detailpost</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" title="" class="active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <select>
+                <option value="">Navigatie</option>
+                <option value="index.html">Home</option>
+                <option value="detail.html">Detailpost</option>
+                <option value="contact.html">Contact</option>
+            </select>
+
+        </header>
+
+        <section id="contact">
+
+            <h1>Contact</h1>
+
+            <form method="POST" action="">
+
+                <div>
+
+                    <div>
+                        <label for="naam">Naam:</label>
+                        <input type="text" name="naam" id="naam" class="required" />
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" class="required email" />
+                    </div>
+
+                    <div>
+                        <label for="beroep">Beroep:</label>
+                        <select name="beroep" id="beroep" class="required">
+                            <option value="">Selecteer beroep</option>
+                            <option value="analyst">Analyst</option>
+                            <option value="developer">Developer</option>
+                            <option value="architect">Architect</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div>
+                    <label for="opmerkingen">Opmerkingen:</label>
+                    <textarea name="opmerkingen" id="opmerkingen" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Formulier verzenden" class="submit" />
+                </div>
+
+            </form>
+
+        </section>
+
+        <footer>
+            <p>
+                &copy; 2015 Ordina - Frontend kickstart
+            </p>
+        </footer>
+
+    </div>
+
+    <script src="js/vendor/libraries.min.js"></script>
+
+    <script src="js/vendor/foundation.min.js"></script>
+
+    <script src="js/app.min.js"></script>
+
+</body>
+</html>
