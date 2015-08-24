@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>reveal.js - The HTML Presentation Framework</title>
+    <title>Introduction Frontend: HTML5 / CSS / JS - Ordina</title>
 
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Hakim El Hattab">
@@ -48,7 +48,7 @@
 
             <img src="img/ordina/ordina_l.png" alt="Ordina" class="logo"/>
 
-            <h1>Introduction HTML5 / CSS / JS</h1>
+            <h1>Introduction Frontend: HTML5 / CSS / JS</h1>
 
             <p>
                 Sam Vloeberghs &mdash; <a href="https://twitter.com/samvloeberghs">@samvloeberghs</a>
@@ -63,15 +63,26 @@
         <!-- intro -->
         <section>
 
-            <h2>
-                Introduction HTML5 / CSS / JS
-            </h2>
+            <section>
+                <h2>
+                    Introduction Frontend: HTML5 / CSS / JS (1)
+                </h2>
 
-            <ol>
-                <li>HTML5 history &amp; elements</li>
-                <li>CSS and why to seperate content / design</li>
-                <li>The purpose of JavaScript & how applied today</li>
-            </ol>
+                <ol>
+                    <li>HTML5 history &amp; elements</li>
+                    <li>CSS and why to seperate content / design</li>
+                    <li>The purpose of JavaScript & how applied today</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Introduction Frontend: HTML5 / CSS / JS (2)</h2>
+                <ol>
+                    <li>Browser vs desktop</li>
+                    <li>Write once run everywhere</li>
+                    <li>Highly maintainable</li>
+                </ol>
+            </section>
 
         </section>
         <!-- // intro -->
@@ -92,17 +103,103 @@
             </section>
 
             <section>
-                <h2>More semantics</h2>
+                <h2>More semantics &amp; Forgiving browsers</h2>
                 <ul>
                     <li>nav, header, footer, section, article, ..</li>
+                    <li>HTML soft syntax <> XML hard syntax</li>
+                    <li>fix omitted endtags</li>
+                </ul>
+            </section>
+
+        </section>
+        <!-- // HTML 5 -->
+
+        <!-- CSS -->
+        <section>
+
+            <section>
+                <h2>
+                    CSS and its purpose
+                </h2>
+
+                <ul>
+                    <li>Cascading Style Sheets</li>
+                    <li>Style content</li>
+                    <li>Not so much properties in level 1-3</li>
+                    <li>But many usecases!</li>
                 </ul>
             </section>
 
             <section>
-                <h2>Forgiving browsers</h2>
+                <h2>CSS Level 1</h2>
                 <ul>
-                    <li>HTML soft syntax <> XML hard syntax</li>
-                    <li>fix omitted endtags</li>
+                    <li>fonts, backgrounds & colors</li>
+                    <li>text formatting</li>
+                    <li>alignment of elements</li>
+                    <li>positioning, margin/padding & bordering</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>CSS Level 2 & 2.1</h2>
+                <ul>
+                    <li>New positioning concept ( abs / rel + z-index )</li>
+                    <li>Media types</li>
+                    <li>Error fixing</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>CSS Level 3  ( 4 modules )</h2>
+                <ul>
+                    <li>Media queries (!)</li>
+                    <li>Namespaces</li>
+                    <li>Selectors</li>
+                    <li>Color</li>
+                </ul>
+            </section>
+
+            <section>
+
+                <pre>
+                    <code>
+<!-- CSS media query on a link element -->
+<link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
+                    </code>
+                </pre>
+
+                <pre>
+                    <code>
+@media (max-width: 600px) {
+    .facet_sidebar {
+        display: none;
+    }
+}
+                    </code>
+                </pre>
+
+            </section>
+
+            <section>
+                <h2>CSS Level 4</h2>
+                <ul>
+                    <li>Extensions of the 4 modules</li>
+                    <li>New modules</li>
+                </ul>
+            </section>
+
+        </section>
+        <!-- // CSS -->
+
+        <!-- JavaScript -->
+        <section>
+
+            <section>
+                <h2>JavaScript</h2>
+                <ul>
+                    <li>in the browser &amp; server</li>
+                    <li>manipulate the DOM</li>
+                    <li>frameworks & libraries ( AngularJS, jQuery, .. )</li>
                 </ul>
             </section>
 
@@ -123,27 +220,15 @@
             </aside>
 
         </section>
-        <!-- // HTML 5 -->
-
-        <!-- CSS -->
-        <section>
-
-        </section>
-        <!-- // CSS -->
-
-        <!-- JavaScript -->
-        <section>
-
-        </section>
         <!-- // JavaScript -->
 
         <!-- documentation -->
         <section>
             <h2>Documentation / links etc.</h2>
             <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></li>
                 <li><a href="http://foundation.zurb.com/">Foundation website</a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="https://angularjs.org/">AngularJS</a></li>
             </ul>
         </section>
         <!-- // documentation -->
@@ -222,6 +307,24 @@
                     </li>
                     <li>Reformat the logo to be on top the navigation</li>
                     <li>Replace the normal navigation with a select navigation</li>
+                </ul>
+
+            </section>
+
+            <section>
+
+                <h2>Part #6: Help out or improvise</h2>
+                <ul>
+                    <li>When done help out others</li>
+                    <li>Improvise functionality & build it:
+                        <br />
+                        <br />
+                        <ul>
+                            <li>Show the 5 latest tweets from OrdinaBE</li>
+                            <li>Build a comment form & validate it</li>
+                            <li>..</li>
+                        </ul>
+                    </li>
                 </ul>
 
             </section>
