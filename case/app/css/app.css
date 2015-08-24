@@ -6659,8 +6659,7 @@ header {
       display: block;
       text-indent: -9999px;
       width: 250px;
-      height: 55px;
-      margin: 0 auto; }
+      height: 55px; }
     @media (max-width: 640px) {
       header h1 {
         float: none;
@@ -6674,9 +6673,9 @@ header {
       header select {
         display: block; } }
   header nav {
+    float: right;
     margin-top: 15px; }
     header nav ul {
-      float: right;
       list-style: none; }
       header nav ul li {
         margin-left: 10px;

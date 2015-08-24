@@ -34,6 +34,7 @@ var app = (function (document, $, window) {
 (function () {
 
     app.init();
+    initFormValidator($('#contact form'));
 
 
 })();
@@ -49,7 +50,7 @@ function initFormValidator(form){
         $('.errormsg', form).remove();
         $('.error', form).removeClass('error');
 
-        $('input, select, textarea').each(function(){
+        $('input, select, textarea', form).each(function(){
 
             var $this = $(this);
             var $parent = $(this).parent();
@@ -67,6 +68,7 @@ function initFormValidator(form){
             if(isEmail && !regexp.test($(this).val())){
                 $this.addClass('error');
                 $parent.append('<p class="errormsg">Ongeldig emailadres!</p>');
+                valid = false;
             }
 
         });
