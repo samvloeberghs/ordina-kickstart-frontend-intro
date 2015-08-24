@@ -42,6 +42,10 @@ Building a form
 
 - Create some CSS classes to indicate that a field is incorrect
 
+Regex to validate email:
+
+    /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+
 ## Part #4:
 JavaScript + HTML5 form validation
 
